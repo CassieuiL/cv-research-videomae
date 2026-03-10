@@ -19,11 +19,17 @@ Verify that the VideoMAE fine-tuning pipeline can run end-to-end without errors.
 - `finetune.sh`: launch script used for the smoke test
 - `train_log.txt`: raw training / evaluation log
 
-## Outcome
+### Smoke Test Result
 
-- Training started successfully
-- Evaluation completed successfully
-- End-to-end pipeline is runnable
+Training started successfully
+
+Evaluation completed successfully
+
+End-to-end pipeline is runnable
+
+- Top-1 Accuracy: 3.15%
+- Top-5 Accuracy: 8.96%
+- Total runtime: 8m40s
 
 ## Notes
 
