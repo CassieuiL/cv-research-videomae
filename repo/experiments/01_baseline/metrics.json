@@ -1,0 +1,13 @@
+{
+  "dataset": "UCF101",
+  "pretrain": "K400",
+  "T": 16,
+  "stride": 4,
+  "batch_size": 8,
+  "num_sample": 1,
+  "inference_clips": 1,
+  "total_epochs": 100,
+  "top1_final": 83.1,
+  "top1_best": 83.4,
+  "best_epoch": 86
+}
