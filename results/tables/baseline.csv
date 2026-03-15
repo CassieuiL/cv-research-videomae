@@ -1,0 +1,2 @@
+Dataset,Pretrain,T,Stride,Infer,Top-1 (%),Best Top-1 (%),Epochs,batch_size,Notes
+UCF101,K400,16,4,1 clip,83.1,83.4,100,8,Baseline; paper reports 91.3% with larger batch
