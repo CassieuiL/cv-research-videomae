@@ -1,4 +1,4 @@
 dataset,pretrain,T,stride,infer,batch_size,epochs,top1_acc,train_time,note
 UCF101,K400,8,4,1-clip,8,50,64.34,2h47min,
-UCF101,K400,16,4,1-clip,8,100,83.10,~9h,baseline
+UCF101,K400,16,4,1-clip,8,100,83.10,14h32min,baseline
 UCF101,K400,32,4,1-clip,2,50,31.11,23h12min,batch_size forced to 2 due to OOM
