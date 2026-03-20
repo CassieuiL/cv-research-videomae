@@ -1,0 +1,3 @@
+dataset,pretrain,T,stride,infer,batch_size,epochs,top1_acc,top1_best,train_time,note
+UCF101,K400,16,4,1-clip,8,100,83.10,83.40,14h32min,baseline (reuse from Week2)
+UCF101,K400,16,2,1-clip,8,50,65.20,65.72,7h19min,
