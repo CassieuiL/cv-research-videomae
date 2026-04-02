@@ -1,4 +1,4 @@
-dataset,pretrain,T,stride,infer,batch_size,epochs,top1_acc,train_time,note
-UCF101,K400,8,4,1-clip,8,50,64.34,2h47min,
-UCF101,K400,16,4,1-clip,8,100,83.10,14h32min,baseline
-UCF101,K400,32,4,1-clip,2,50,31.11,23h12min,batch_size forced to 2 due to OOM
+T,stride,inference_clips,epochs,batch_size,top1_acc,delta_vs_T16,notes
+8,4,1,50,8,64.34,-18.76,Insufficient temporal coverage; large accuracy drop
+16,4,1,100,8,83.1,0.0,Baseline (reference); best=83.4% @ep86
+32,4,1,50,2,31.11,-52.0,OOM on vGPU-32GB; batch reduced 8->2; training unstable

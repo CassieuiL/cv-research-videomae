@@ -1,3 +1,3 @@
-dataset,pretrain,T,stride,infer,batch_size,epochs,top1_acc,top1_best,train_time,note
-UCF101,K400,16,4,1-clip,8,100,83.10,83.40,14h32min,baseline (reuse from Week2)
-UCF101,K400,16,2,1-clip,8,50,65.20,65.72,7h19min,
+T,stride,inference_clips,epochs,top1_acc,delta_vs_stride4,temporal_window_frames,notes
+16,2,1,50,65.72,-17.68,32,Dense sampling; short temporal window; misses macro-action structure
+16,4,1,100,83.4,0.0,64,Baseline stride; broader temporal coverage; matches K400 pretraining config

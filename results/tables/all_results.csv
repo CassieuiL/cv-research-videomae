@@ -1,0 +1,9 @@
+dataset,pretrain,T,stride,inference_clips,top1_acc,notes,week
+UCF101,K400,16,4,1,83.4,Baseline (best checkpoint @ep86),Week2
+UCF101,K400,8,4,1,64.34,T ablation; 50 epochs,Week3
+UCF101,K400,16,4,1,83.1,T ablation; 100 epochs (=baseline),Week3
+UCF101,K400,32,4,1,31.11,T ablation; OOM -> batch reduced to 2; 50 epochs,Week3
+UCF101,K400,16,2,1,65.72,Stride ablation; 50 epochs,Week4
+UCF101,K400,16,4,5,84.67,Inference clip ablation; same ckpt as baseline,Week5
+UCF101,SSV2,16,4,1,60.3,Domain shift; SSV2 pretrain; 50 epochs,Week6
+UCF101,K400,16,4,1,68.1,Domain shift; K400 pretrain; 50 epochs,Week6
